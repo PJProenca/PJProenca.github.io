@@ -73,12 +73,13 @@ figure {
   position: relative; }
 
 #colorlib-aside {
+  display: grid;
+  align-content: space-between;
   padding-top: 3em;
-  padding-bottom: 40px;
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -402,6 +403,11 @@ body.offcanvas {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+  
+.animate-box h5{
+text-transform: uppercase;
+font-weight: bold;
+}
 
 .colorlib-heading {
   font-size: 18px;
@@ -807,6 +813,12 @@ body.offcanvas {
       background: #4054b2; }
     .progress-bar.color-6 span {
       color: #4054b2; }
+      .progress-bar.color-7 {
+    background: #03da76; }
+    .progress-bar.color-7:after {
+      background: #03da76; }
+    .progress-bar.color-7 span {
+      color: #03da76; }
 
 .colorlib-feature {
   text-align: left;
