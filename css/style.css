@@ -74,8 +74,8 @@ figure {
 
 #colorlib-aside {
   display: grid;
-  align-content: space-between;
-  padding-top: 3em;
+  align-content: space-between; 
+  padding-top: 1.5em;
   float: left;
   width: 300px;
   position: fixed;
@@ -335,10 +335,12 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid #000;
-            background: transparent !important; }
+            background: transparent !important;
+            transition: transform 0.8s ease; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #000 !important;
+              transform: scale(1.2);}
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }

@@ -19,10 +19,17 @@
   text-transform: none;
   line-height: 1;
   color: #2c98f0;
+  transition: color 0.8s ease ;
+  transition: filter 0.8s ease;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  color:#05579b;
+  filter: drop-shadow(5px 5px 10px black);
 }
 
 .icon-times:before {
@@ -1518,12 +1525,9 @@
 }
 .icon-facebook2::before {
   content: "\eac0";
-  transition: color 0.3s ease ;
+  
 }
 
-.icon-facebook2:hover {
-  color:#1975c0;
-}
 .icon-facebook22:before {
   content: "\eac1";
 }
